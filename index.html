@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickBites restaurant</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!--    Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--CDN for font-awesome , owl-carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <section class="header">
+        <div class="topbar">
+            <div class="logo">QuickBites</div>
+            <div class="navbar" id="Navbar">
+                <a href="#menu">Menu</a>
+                <a href="#testimonials">Ratings</a>
+                <a href="#followus">About Us</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="ham-menu">
+                <input type="checkbox" id="change">
+            </div>
+        </div>
+
+        <div class="header-container">
+            <div class="video">
+                <video loop muted autoplay id="video">
+                    <source src="./videos/intro.mp4">
+                    This file type is not supported
+                </video>
+            </div>
+        </div>
+
+        <div class="header-box">
+            <h1 class="heading-primary">
+                Best <br> <span id="restaurant">restaurant</span> <br> in town
+            </h1>
+            <p class="lead">INDIAN&mdash;CHINESE&mdash;ITALIAN&mdash;MEXICAN</p>
+            <a href="#" class="book-now">Order Now</a>
+        </div>
+    </section>
+
+    <!-- MENU  -->
+    <div class="menu" id="menu">
+        <div class="heading">
+            <h1>QUICK BITES</h1>
+            <h3>&mdash; MENU &mdash; </h3>
+        </div>
+        <div class="food-items">
+            <img src="./images/foods/chicken-burger.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Chicken burger</h5>
+                    <h5 class="price"> ₹70 </h5>
+                </div>
+                <p>A succulent grilled chicken patty nestled between two soft, toasted buns, topped with fresh lettuce, ripe tomatoes, and tangy pickles. Served with a side of crispy golden fries, this classic burger is a satisfying choice for those craving a hearty meal.</p>
+            </div>
+        </div>
+
+        <div class="food-items">
+            <img src="./images/foods/burrito.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Burritos</h5>
+                    <h5 class="price"> ₹110 </h5>
+                </div>
+                <p>A flavor-packed tortilla filled with your choice of savory ingredients such as seasoned chicken, black beans, rice, and a medley of grilled vegetables. Topped with zesty salsa, creamy guacamole, and a sprinkle of cheese.</p>
+            </div>
+        </div>
+
+        <div class="food-items">
+            <img src="./images/foods/pizza.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Mushroom Pizza</h5>
+                    <h5 class="price"> ₹120 </h5>
+                </div>
+                <p>A mouthwatering pizza creation that celebrates the earthy goodness of mushrooms. A thin, crispy crust is generously topped with a savory tomato sauce, a blend of melted cheeses, and sautéed mushrooms for a rich and satisfying pizza experience.</p>
+            </div>
+        </div>
+
+        <div class="food-items">
+            <img src="./images/foods/chinese-noodles.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Chinese noodles</h5>
+                    <h5 class="price"> ₹60 </h5>
+                </div>
+                <p>A stir-fried medley of fresh vegetables, tender noodles, and your choice of protein, such as succulent shrimp, thinly sliced chicken, or marinated tofu, all tossed in a fragrant blend of soy sauce, garlic, and ginger.</p>
+            </div>
+        </div>
+
+        <div class="food-items">
+            <img src="./images/foods/mocktails.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>Mocktails</h5>
+                    <h5 class="price"> ₹30-₹80 </h5>
+                </div>
+                <p>A refreshing and alcohol-free beverage selection that combines a variety of fruity and aromatic flavors. From vibrant tropical blends bursting with pineapple and citrus notes to sophisticated herb-infused concoctions.</p>
+            </div>
+        </div>
+
+        <div class="food-items">
+            <img src="./images/foods/sandwiches.jpg">
+            <div class="details">
+                <div class="details-sub">
+                    <h5>BBQ Chicken Sandwich</h5>
+                    <h5 class="price"> ₹40 </h5>
+                </div>
+                <p>Sink your teeth into this mouthwatering BBQ chicken sandwich that combines tender, smoky grilled chicken with a sweet and tangy barbecue sauce. Topped with crisp lettuce, sliced tomatoes, and a touch of zesty red onion, all nestled between a toasted brioche bun.</p>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!-- REVIEWS SECTION -->
+    <div class="heading" id="testimonials">
+            <h1>QUICK BITES</h1>
+            <h3>&mdash; CUSTOMER REVIEWS &mdash; </h3>
+    </div>
+
+    
+        <div id="slider" class="owl-carousel">
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="./images/customers/alexander.jpg" alt="Alexander"></div>
+                    <h2>Alexander</h2>
+                    <p>"The food at this restaurant is absolutely outstanding! The flavors are unique and the presentation is top-notch. I highly recommend their signature dessert. A must-visit for any food enthusiast!"</p>
+
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="./images/customers/natalie.jpg" alt="Natalie"></div>
+                    <h2>Natalie</h2>
+                    <p>"I had an amazing dining experience at this restaurant. The staff was friendly and attentive, and the ambiance was cozy. The menu had a great variety of dishes, and everything I tried was delicious."</p>
+
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="./images/customers/varun.jpg" alt="Varun"></div>
+                    <h2>Varun</h2>
+                    <p>"This restaurant exceeded my expectations. The service was impeccable, and the dishes were beautifully crafted with fresh ingredients. I am definitely going to visit here once again next time !"</p>
+
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="./images/customers/johndoe.jpg" alt="John Doe"></div>
+                    <h2>John Doe</h2>
+                    <p>"I was thrilled with the options available at this restaurant. The staff was knowledgeable about the menu and the chefs showed great creativity in their  dishes, and the flavors were exceptional. I'll definitely be coming back!"</p>
+
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="./images/customers/akash.jpg" alt="Akash"></div>
+                    <h2>Akash</h2>
+                    <p>"The atmosphere of this restaurant is simply fantastic. It's the perfect place for a romantic dinner or a special celebration. The menu offers a wide range of choices. I had a memorable evening here."</p>
+
+                </div>
+            </div>
+            <div class="content-area">
+                <div class="content">
+                    <div class="img-area"><img src="./images/customers/olivia.jpg" alt="Olivia"></div>
+                    <h2>Olivia</h2>
+                    <p> "I visited this restaurant for a business lunch, and I was impressed by their attention to detail. Their service was prompt. The portions were generous and the prices were reasonable."</p>
+
+                </div>
+            </div>
+        </div>
+    
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col" id="address">
+                    <h4>Address</h4>
+                    <p><a href="https://goo.gl/maps/jo9c6QxUrGfPjxnT6"><i class="fa-solid fa-location-dot"></i> Near NMAMIT College <br>
+                    Nitte, Karkala</a></p>
+                </div>
+                <div class="footer-col" id="contact">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="tel:+910000090000"><i class="fa-solid fa-phone"></i> +910000090000</a></li>
+                        <li><a href="mailto:quickbitescafe@gmail.com"><i class="fa-regular fa-envelope"></i> quickbitescafe@gmail.com</a></li>
+                        <li><a href="https://wa.me/910000090000?text=''"><i class="fa-brands fa-whatsapp"></i> Whatsapp</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col" id="followus">
+                    <h4>Follow us</h4>
+                    <div class="social-links">
+                        <a href="#followus"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#followus"><i class="fab fa-twitter"></i></a>
+                        <a href="#followus"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="./scripts/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $('#slider').owlCarousel({
+    loop:true,
+    margin:15,
+    nav:false,
+    autoplay:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:2
+        },
+        1000:{
+            items:3
+        }
+    }
+})
+    </script>
+</body>
+</html>
